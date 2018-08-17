@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue.eot');
+  src: url('../fonts/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue/HelveticaNeue.ttf') format('truetype'), url('../fonts/HelveticaNeue/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Bold.eot');
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue/HelveticaNeue-Bold.woff') format('woff'), url('../fonts/HelveticaNeue/HelveticaNeue-Bold.ttf') format('truetype'), url('../fonts/HelveticaNeue/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Medium.eot');
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue/HelveticaNeue-Medium.woff') format('woff'), url('../fonts/HelveticaNeue/HelveticaNeue-Medium.ttf') format('truetype'), url('../fonts/HelveticaNeue/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg');
+  font-style: normal;
+  font-weight: 500;
+}
+
+$fonts1: 'HelveticaNeue', Arial, Helvetica, sans-serif;

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.012 33.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 28px;
+      }
+
+      .cls-2 {
+        font-family: MullerExtraBold, Muller;
+      }
+
+      .cls-3 {
+        font-family: MullerRegular, Muller;
+      }
+    </style>
+  </defs>
+  <g id="MA-Small-Logo" transform="translate(-315.174 193.335)">
+    <g id="Group_4" data-name="Group 4" transform="translate(315.174 -193.335)">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M16.98,2.2A14.782,14.782,0,1,1,2.2,16.98,14.782,14.782,0,0,1,16.98,2.2m0-2.2A16.98,16.98,0,1,0,33.96,16.98,16.98,16.98,0,0,0,16.98,0Z" transform="translate(0 0)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M45.047,84.445,38.1,79.232v4.655H35.56V74.16l9.487,7.114,9.485-7.114v9.727H52V79.232Z" transform="translate(-28.067 -58.533)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M45.063,49.555,35.58,42.44V35.16l9.483,7.114,9.483-7.114v7.28Zm-6.954-8.383,6.954,5.211,6.954-5.211v-.938l-6.954,5.218-6.954-5.211Z" transform="translate(-28.082 -27.751)"/>
+    </g>
+    <text id="MUSAN" class="cls-2" transform="translate(360.225 -166.123)"><tspan x="0" y="0">MUSAN</tspan></text>
+    <text id="ADVERTISING" class="cls-3" transform="translate(471.186 -166.123)"><tspan x="0" y="0">ADVERTISING</tspan></text>
+  </g>
+</svg>
