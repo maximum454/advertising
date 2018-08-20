@@ -5,8 +5,10 @@ $(function () {
         scrollBar: true,
         verticalCentered: true,
         parallax: true,
-        anchors:['firstPage', 'material', 'news'],
-        navigationTooltips: ['firstSlide', 'material', 'news'],
+        navigation: true,
+        navigationPosition: 'left',
+        anchors: ['Musan', 'advertising', 'ad', 'tv', 'radio', 'portal', 'pressa'],
+        navigationTooltips: ['Агенство', 'Услуги', 'Наружная реклама', 'Телевидение', 'Радио', 'Информационый портал', 'Пресса'],
         responsiveWidth: 485
     });
 

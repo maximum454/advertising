@@ -1,0 +1,51 @@
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	height: 0;
+	width: 0;
+	border: 0;
+	background-color: #EAEAEA;
+	left: 50%;
+	top: 50%;
+	margin: -2px 0 0 -2px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li{
+	display: block;
+	width: 14px;
+	height: 13px;
+	margin: 0;
+	padding: 14px 0;
+	position: relative;
+	&:first-child{
+		padding-top: 0;
+	}
+	&:last-child{
+		padding-bottom: 0;
+	}
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%,0);
+		background-color: #EAEAEA;
+		width: 1px;
+		height: 100%;
+	}
+}
+
+#fp-nav ul li .fp-tooltip {
+	width: auto;
+	opacity: 1;
+	color: #EAEAEA;
+	font-size: 10px;
+	text-transform: uppercase;
+	top: -6px;
+}

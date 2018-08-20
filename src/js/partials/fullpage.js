@@ -921,14 +921,16 @@
                     link = options.anchors[i];
                 }
 
-                li += '<li><a href="#' + link + '"><span></span></a>';
-
                 // Only add tooltip if needed (defined by user)
                 var tooltip = options.navigationTooltips[i];
-
                 if (typeof tooltip !== 'undefined' && tooltip !== '') {
-                    li += '<div class="' + SECTION_NAV_TOOLTIP + ' fp-' + options.navigationPosition + '">' + tooltip + '</div>';
+                li += '<li><a href="#' + link + '"><span></span><div class="' + SECTION_NAV_TOOLTIP + ' fp-' + options.navigationPosition + '">' + tooltip + '</div></a>';
                 }
+
+
+                /*if (typeof tooltip !== 'undefined' && tooltip !== '') {
+                    li += '<div class="' + SECTION_NAV_TOOLTIP + ' fp-' + options.navigationPosition + '">' + tooltip + '</div>';
+                }*/
 
                 li += '</li>';
             }
